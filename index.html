@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pergantian Jam</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHtXu9yXnbJ9vQW28c4tTZIqIPLFUnJrzKoSvxWnuxvuAguw/viewform?embedded=true"
+          width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">
+    Memuat...
+  </iframe>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+        .then(function() { console.log('Service Worker terdaftar'); })
+        .catch(function(err) { console.error('SW Gagal:', err); });
+    }
+  </script>
+</body>
+</html>
