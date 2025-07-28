@@ -5,7 +5,7 @@
     "scope": "/pergantianjam/",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#4CAF50",
+    "theme_color": "#ac1111",
     "icons": [
         {
             "src": "icon-192.png",
