@@ -2,11 +2,11 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open('form-cache').then(function(cache) {
       return cache.addAll([
-        '/index.html',
-        '/manifest.json',
-        '/icon-192.png',
-        '/icon-512.png',
-        '/style.css'
+        './index.html',
+        './manifest.json',
+        './icon-192.png',
+        './icon-512.png',
+        './style.css'
       ]);
     })
   );
