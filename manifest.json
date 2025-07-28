@@ -1,8 +1,8 @@
 {
     "name": "Pergantian Jam",
     "short_name": "Pergantian Jam",
-    "start_url": "/pergantianjam/index.html",
-    "scope": "/pergantianjam/",
+    "start_url": "/gantijam/index.html",
+    "scope": "/gantijam/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#ac1111",
