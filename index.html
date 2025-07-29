@@ -15,7 +15,7 @@
 
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js')
+      navigator.serviceWorker.register('./sw.js')
         .then(function() { console.log('Service Worker terdaftar'); })
         .catch(function(err) { console.error('SW Gagal:', err); });
     }
